@@ -21,9 +21,9 @@
 
 ## 🚀 About Polaris AI Studio
 
-Polaris AI Studio is a comprehensive AI development platform that empowers developers, researchers, and businesses to harness the power of artificial intelligence. With an intuitive interface and powerful capabilities, Polaris AI Studio makes advanced AI accessible to everyone
+Polaris AI Studio is a comprehensive AI development platform that empowers developers, researchers, and businesses to harness the power of artificial intelligence. With an intuitive interface and powerful capabilities, Polaris AI Studio makes advanced AI accessible to everyone.
 
-![Polaris AI Studio Interface](assets/screenshot.png)
+![Polaris AI Studio Interface](assets/image.png)
 
 ## ✨ Features
 
