@@ -1,0 +1,80 @@
+/* Sepia Theme Override */
+.sepia-theme {
+  /* Background colors */
+  --joy-palette-background-body: #faf8f5;
+  --joy-palette-background-surface: #f5f2ed;
+  --joy-palette-background-level1: #f0ece5;
+  --joy-palette-background-level2: #ebe6dd;
+  --joy-palette-background-level3: #e6ddd0;
+
+  /* Text colors */
+  --joy-palette-text-primary: #4a3f35;
+  --joy-palette-text-secondary: #6b5d52;
+  --joy-palette-text-tertiary: #8c7c6f;
+
+  /* Primary colors */
+  --joy-palette-primary-50: #fef7f0;
+  --joy-palette-primary-100: #fdeed8;
+  --joy-palette-primary-200: #fbd9a8;
+  --joy-palette-primary-300: #f8c377;
+  --joy-palette-primary-400: #f5a742;
+  --joy-palette-primary-500: #d2691e;
+  --joy-palette-primary-600: #b8591b;
+  --joy-palette-primary-700: #9e4918;
+  --joy-palette-primary-800: #843915;
+  --joy-palette-primary-900: #6a2912;
+
+  /* Success colors */
+  --joy-palette-success-50: #f5f3f0;
+  --joy-palette-success-100: #ebe6e0;
+  --joy-palette-success-200: #d7ccbf;
+  --joy-palette-success-300: #c3b39e;
+  --joy-palette-success-400: #af997d;
+  --joy-palette-success-500: #9b7f5c;
+  --joy-palette-success-600: #8a6f4a;
+  --joy-palette-success-700: #795f38;
+  --joy-palette-success-800: #684f26;
+  --joy-palette-success-900: #573f14;
+
+  /* Danger colors */
+  --joy-palette-danger-50: #fdf5f3;
+  --joy-palette-danger-100: #fbe8e2;
+  --joy-palette-danger-200: #f5d0c4;
+  --joy-palette-danger-300: #efb8a6;
+  --joy-palette-danger-400: #e9a088;
+  --joy-palette-danger-500: #e3886a;
+  --joy-palette-danger-600: #d67053;
+  --joy-palette-danger-700: #c9583c;
+  --joy-palette-danger-800: #bc4025;
+  --joy-palette-danger-900: #af280e;
+
+  /* Divider */
+  --joy-palette-divider: #d4c4b0;
+
+  /* Neutral colors */
+  --joy-palette-neutral-50: #faf8f5;
+  --joy-palette-neutral-100: #f5f2ed;
+  --joy-palette-neutral-200: #ebe6dd;
+  --joy-palette-neutral-300: #d4c4b0;
+  --joy-palette-neutral-400: #b5a084;
+  --joy-palette-neutral-500: #967c58;
+  --joy-palette-neutral-600: #776348;
+  --joy-palette-neutral-700: #584a38;
+  --joy-palette-neutral-800: #3d3128;
+  --joy-palette-neutral-900: #221818;
+
+  /* Apply warm sepia filter to the entire body */
+  filter: sepia(0.1) saturate(1.1) brightness(1.02) contrast(1.05);
+}
+
+/* Override for input and interactive elements */
+.sepia-theme input,
+.sepia-theme button,
+.sepia-theme [role="button"] {
+  filter: none; /* Remove sepia filter from interactive elements for better usability */
+}
+
+/* Ensure text remains readable */
+.sepia-theme * {
+  color: inherit;
+}
